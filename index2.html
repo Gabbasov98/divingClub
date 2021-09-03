@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City diving club</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class='header'>
+        <div class='container'>
+            <div class='header__top'>
+                <div class="header__top-left">
+                    <select class="header__select">
+                        <option value="London">London</option>
+                        <option value="Moscow">Moscow</option>
+                    </select>
+                </div>
+                <nav class="nav">
+                    <a href="">Become a Host</a>
+                    <a href="">About</a>
+                    <a href="">Contacts</a>
+                    <a href="">Host portal</a>
+                </nav>
+                <button class="header__burger">
+                    <span></span>
+                </button>
+            </div>
+            <div class="header__bottom">
+                <a href="" class="header__logo">
+                    fun<span>imator</span>
+                </a>
+                <div class="header__bottom-center">
+                    <div class="header__search">
+                        <input type="text" placeholder="search">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.6966 11.0627L8.59508 7.96116C9.19585 7.21907 9.55757 6.27612 9.55757 5.2491C9.55757 2.86878 7.62077 0.931976 5.24045 0.931976C2.86012 0.931976 0.92334 2.86876 0.92334 5.24908C0.92334 7.62941 2.86014 9.56621 5.24047 9.56621C6.26748 9.56621 7.21044 9.20449 7.95252 8.60372L11.054 11.7052C11.1426 11.7938 11.259 11.8384 11.3753 11.8384C11.4917 11.8384 11.608 11.7938 11.6966 11.7052C11.8743 11.5276 11.8743 11.2403 11.6966 11.0627ZM5.24047 8.65734C3.36092 8.65734 1.83221 7.12863 1.83221 5.24908C1.83221 3.36954 3.36092 1.84083 5.24047 1.84083C7.12001 1.84083 8.64872 3.36954 8.64872 5.24908C8.64872 7.12863 7.11999 8.65734 5.24047 8.65734Z" fill="black" fill-opacity="0.2"/>
+                        </svg>
+                        <select class="header__search-select">
+                            <option disabled selected value="category">category</option>
+                            <option value="category 1">category 1</option>
+                            <option value="category 2">category 2</option>
+                            <option value="category 3">category 3</option>
+                        </select>
+                        <button>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.377579 14.7552L4.60691 10.5258C3.78768 9.51389 3.29442 8.22803 3.29442 6.82754C3.29442 3.58161 5.93551 0.940491 9.1814 0.940491C12.4273 0.940491 15.0684 3.58158 15.0684 6.82751C15.0684 10.0734 12.4273 12.7146 9.18138 12.7146C7.7809 12.7146 6.49506 12.2213 5.48313 11.4021L1.2538 15.6314C1.13296 15.7523 0.974333 15.813 0.815675 15.813C0.657017 15.813 0.498388 15.7523 0.377551 15.6314C0.135265 15.3891 0.135264 14.9975 0.377579 14.7552ZM9.18138 11.4752C11.7444 11.4752 13.829 9.39055 13.829 6.82751C13.829 4.26447 11.7444 2.17985 9.18138 2.17985C6.61836 2.17985 4.53376 4.26447 4.53376 6.82751C4.53376 9.39055 6.61839 11.4752 9.18138 11.4752Z" fill="white" fill-opacity="1"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="header__favourite">
+                        <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.25602 0.000189044C2.80793 0.0169766 0.0167876 2.80806 0 6.25621C0 12.5735 11.5 18.8295 11.5 18.8295C11.5 18.8295 23 12.4815 23 6.25621C23 2.80113 20.1991 0.000189044 16.744 0.000189044C14.629 -0.0163051 12.6517 1.04748 11.5 2.8215C10.3404 1.05611 8.36821 -0.00491767 6.25602 0.000189044Z" fill="#D7443E"/>
+                        </svg>
+                    </button>
+                    <a href="" class="header__notification">
+                        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.5983 0.483887C8.87348 0.483887 7.47004 1.88732 7.47004 3.61218V4.55604H9.08811V3.61218C9.08811 2.77942 9.7658 2.10195 10.5983 2.10195C11.4311 2.10195 12.1088 2.77937 12.1088 3.61218V4.55604H13.7269V3.61218C13.7269 1.88732 12.3232 0.483887 10.5983 0.483887Z" fill="black"/>
+                            <path d="M12.8097 20.1972C12.8097 21.4019 11.8297 22.3819 10.6253 22.3819H10.5714C9.36701 22.3819 8.38696 21.4019 8.38696 20.1972H6.76889C6.76889 22.2943 8.47464 24 10.5714 24H10.6253C12.7221 24 14.4278 22.2943 14.4278 20.1972H12.8097Z" fill="black"/>
+                            <path d="M21.0682 19.895L18.7697 16.3193V11.7296C18.7697 7.17925 15.1039 3.47734 10.5984 3.47734C6.09258 3.47734 2.42709 7.17925 2.42709 11.7296V16.3193L0.128619 19.8947C-0.0315842 20.1436 -0.042883 20.4602 0.0989487 20.7199C0.24078 20.9796 0.512915 21.1414 0.809026 21.1414H20.3878C20.6839 21.1414 20.956 20.9796 21.0976 20.7202C21.2397 20.4605 21.2284 20.1439 21.0682 19.895ZM2.29086 19.5233L3.91651 16.9943C4.00038 16.864 4.04516 16.7119 4.04516 16.5569V11.7296C4.04516 8.07162 6.98495 5.09545 10.5984 5.09545C14.2121 5.09545 17.1516 8.07167 17.1516 11.7296V16.5569C17.1516 16.7119 17.1961 16.8638 17.28 16.9943L18.9057 19.5233H2.29086Z" fill="black"/>
+                        </svg>
+                        <span>3</span>
+                    </a>
+                </div>
+                <a href="" class="header__sign">Sign in</a>
+            </div>
+        </div>
+    </header>
+
+    <section class='breadcrumbs'>
+        <div class='container'>
+            <div class='breadcrumbs__items'>
+                <a href="" class="breadcrumbs__item">Home</a>
+                <a href="" class="breadcrumbs__item">Sport</a>
+                <a href="" class="breadcrumbs__item">Diving</a>
+                <a href="" class="breadcrumbs__item">CDC</a>
+                <a class="breadcrumbs__item">Little Spikes</a>
+            </div>
+        </div>
+    </section>
+
+    <section class='co-name'>
+        <div class='container'>
+            <div class='co-name__inner'>
+                <div class="co-name__left">
+                    <div class="co-name__img">
+                        <img src="images/logo.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="co-name__title">City Diving Club</p>
+                        <div class="co-name__feedback">
+                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.58712 1.48699C6.97775 0.695473 8.10643 0.695473 8.49706 1.48699L9.94109 4.41291C10.0962 4.72723 10.3961 4.94508 10.7429 4.99548L13.9719 5.46468C14.8454 5.5916 15.1941 6.66503 14.5621 7.28114L12.2256 9.55866C11.9746 9.80332 11.8601 10.1558 11.9193 10.5013L12.4709 13.7172C12.6201 14.5871 11.707 15.2506 10.9257 14.8398L8.03765 13.3215C7.72741 13.1584 7.35677 13.1584 7.04653 13.3215L4.15847 14.8398C3.3772 15.2506 2.46408 14.5871 2.61329 13.7172L3.16486 10.5013C3.22411 10.1558 3.10958 9.80332 2.85859 9.55866L0.522093 7.28114C-0.109969 6.66503 0.238811 5.5916 1.1123 5.46468L4.34125 4.99548C4.68811 4.94508 4.98796 4.72723 5.14309 4.41291L6.58712 1.48699Z" fill="#F36666"/>
+                            </svg>
+                            <div class="co-name__feedback-score">4.7</div>
+                            <div class="co-name__feedback-reviews">26 reviews</div>
+                        </div>
+                    </div>
+                </div>
+                <span>/ FCDC / </span>
+            </div>
+        </div>
+    </section>
+
+
+    <section class='content content--mt44'>
+        <div class='container'>
+            <div class='content__inner'>
+                <div class="desc">
+                    <div class="desc__top">
+                        <div class="desc__top-left">
+                            <div class="desc__top-title">Little spikes</div>
+                            <div class="desc__top-badge">4 spots left!</div>
+                        </div>
+
+                        <div class="desc__top-date">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.02039 14.4611H3.7442V16.0954C3.7442 16.3963 3.98811 16.6402 4.28897 16.6402H18.5254C18.8263 16.6402 19.0702 16.3963 19.0702 16.0954V1.93159C19.0702 1.63074 18.8263 1.38683 18.5254 1.38683H15.8016V0.842065C15.8016 0.54121 15.5577 0.297302 15.2568 0.297302C14.956 0.297302 14.7121 0.54121 14.7121 0.842065V1.38683H11.952V0.842065C11.952 0.54121 11.708 0.297302 11.4072 0.297302C11.1063 0.297302 10.8624 0.54121 10.8624 0.842065V1.38683H8.13862V0.842065C8.13862 0.54121 7.89471 0.297302 7.59386 0.297302C7.293 0.297302 7.0491 0.54121 7.0491 0.842065V1.38683H4.28897C3.98811 1.38683 3.7442 1.63074 3.7442 1.93159V5.20016C3.7442 9.21506 2.0756 12.3037 0.671637 13.4979C0.495424 13.6447 0.430089 13.8861 0.508136 14.1018C0.586254 14.3175 0.791012 14.4611 1.02039 14.4611ZM17.9807 15.5506H4.83373V14.4611H15.2568C15.3843 14.4611 15.5077 14.4165 15.6056 14.3348C16.2605 13.7894 17.2749 12.4908 17.9807 10.8275V15.5506ZM4.83373 2.47635H7.0491V3.02111C7.0491 3.32197 7.293 3.56588 7.59386 3.56588C7.89471 3.56588 8.13862 3.32197 8.13862 3.02111V2.47635H10.8624V3.02111C10.8624 3.32197 11.1063 3.56588 11.4072 3.56588C11.708 3.56588 11.952 3.32197 11.952 3.02111V2.47635H14.7121V3.02111C14.7121 3.32197 14.956 3.56588 15.2568 3.56588C15.5577 3.56588 15.8016 3.32197 15.8016 3.02111V2.47635H17.9807V4.6554H4.83373V2.47635ZM4.8244 5.74456H17.971C17.8482 9.20035 16.5219 11.9194 15.0432 13.3716H2.25951C3.93494 11.2368 4.73451 8.45719 4.8244 5.74456Z" fill="black" fill-opacity="0.6"></path>
+                            </svg>
+                            <span>May, 2 - July, 12</span>
+                        </div>
+                    </div>
+                    <div class="desc__desc">Forest City Diving Club is a not-for-profit sports organization sanctioned by Dive Ontario and Dive Plongeon Canada. Whether you’re diving for fun, or you’re an Olympic hopeful, Forest City Diving Club has a place for you, with programs
+                        designed for everyone.</div>
+                    <div class="desc__time">
+                        <strong>May, 2 - July, 31</strong>
+                        <strong>Twice a week:  Thu., Sun. 13-14.15PM</strong>
+                        <span>Except 07/11/2021(Holyday)</span>
+                    </div>
+                    <div class="desc__location">
+                        <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 0C2.6916 0 0 2.6916 0 6C0 7.1178 0.309634 8.20867 0.895634 9.15507L5.65847 16.8303C5.7497 16.9773 5.91043 17.0667 6.0833 17.0667H6.08727C6.26163 17.0653 6.4227 16.9732 6.51227 16.8236L11.1537 9.074C11.7074 8.1476 12 7.08463 12 6C12 2.6916 9.3084 0 6 0ZM10.2955 8.5606L6.07573 15.6062L1.74557 8.6282C1.2578 7.84047 0.993333 6.93167 0.993333 6C0.993333 3.243 3.243 0.993333 6 0.993333C8.757 0.993333 11.0033 3.243 11.0033 6C11.0033 6.90403 10.7563 7.7896 10.2955 8.5606Z" fill="#D7443E"/>
+                            <path d="M6 3C4.3458 3 3 4.3458 3 6C3 7.64363 4.3239 9 6 9C7.69677 9 9 7.62557 9 6C9 4.3458 7.6542 3 6 3ZM6 8.00667C4.89143 8.00667 3.99333 7.10557 3.99333 6C3.99333 4.8972 4.8972 3.99333 6 3.99333C7.1028 3.99333 8.00333 4.8972 8.00333 6C8.00333 7.08943 7.12613 8.00667 6 8.00667Z" fill="#D7443E"/>
+                        </svg>
+                        <span>1045 Wonderland Rd N, London, On N6G 2Y9,  LAC </span>
+                    </div>
+                    <div class="desc__coaches">Coaches: <span>Julia , Nathan</span> </div>
+                </div>
+                <div class="calendar">
+                    <div id="calendar"></div>
+                    <div class="calendar__bottom">
+                        <a href="" class="calendar__total">Total: 23 classes</a>
+                        <div class="calendar__price">$250</div>
+                    </div>
+                    <div class="calendar__nav">
+                        <a href="" class="calendar__online">register on-line</a>
+                        <a href="" class="calendar__add">add to wish list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class='footer'>
+        <div class='container'>
+            <div class='footer__inner'>
+                <div class="footer__col">
+                    <p class="footer__title">Company</p>
+                    <a href="" class="footer__item">About company</a>
+                    <a href="" class="footer__item">Our mission</a>
+                    <a href="" class="footer__item">Work with us</a>
+                </div>
+                <div class="footer__col">
+                    <p class="footer__title">Become a Host</p>
+                    <a href="" class="footer__item">Join to company</a>
+                    <a href="" class="footer__item">It’s FREE!</a>
+                    <a href="" class="footer__item">Advantages</a>
+                </div>
+                <div class="footer__col">
+                    <p class="footer__title footer__title--center">Follow Us</p>
+                    <div class="footer__social">
+                        <a href="">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.2756 0.67041H6.78318C3.04287 0.67041 0 3.71328 0 7.45359V18.9462C0 22.6863 3.04287 25.7292 6.78318 25.7292H18.2758C22.0159 25.7292 25.0588 22.6863 25.0588 18.9462V7.45359C25.0588 3.71328 22.0159 0.67041 18.2756 0.67041ZM23.5897 18.9462C23.5897 21.8763 21.2059 24.2601 18.2756 24.2601H6.78318C3.85292 24.2601 1.46905 21.8763 1.46905 18.9462V7.45359C1.46905 4.52333 3.85292 2.13946 6.78318 2.13946H18.2758C21.2059 2.13946 23.5897 4.52333 23.5897 7.45359V18.9462Z" fill="black"/>
+                                <path d="M12.5294 6.34798C8.75122 6.34798 5.67757 9.42163 5.67757 13.1998C5.67757 16.978 8.75122 20.0516 12.5294 20.0516C16.3076 20.0516 19.3812 16.978 19.3812 13.1998C19.3812 9.42163 16.3076 6.34798 12.5294 6.34798ZM12.5294 18.5826C9.56146 18.5826 7.14662 16.1679 7.14662 13.1998C7.14662 10.2319 9.56146 7.81703 12.5294 7.81703C15.4975 7.81703 17.9122 10.2319 17.9122 13.1998C17.9122 16.1679 15.4975 18.5826 12.5294 18.5826Z" fill="black"/>
+                                <path d="M19.545 3.9146C18.4285 3.9146 17.5204 4.82291 17.5204 5.93923C17.5204 7.05574 18.4285 7.96405 19.545 7.96405C20.6616 7.96405 21.5699 7.05574 21.5699 5.93923C21.5699 4.82272 20.6616 3.9146 19.545 3.9146ZM19.545 6.49481C19.2388 6.49481 18.9895 6.24551 18.9895 5.93923C18.9895 5.63276 19.2388 5.38365 19.545 5.38365C19.8515 5.38365 20.1008 5.63276 20.1008 5.93923C20.1008 6.24551 19.8515 6.49481 19.545 6.49481Z" fill="black"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg width="26" height="26" xmlns="http://www.w3.org/2000/svg" height="512pt" viewBox="0 0 512 512" width="512pt"><path d="m483.738281 0h-455.5c-15.597656.0078125-28.24218725 12.660156-28.238281 28.261719v455.5c.0078125 15.597656 12.660156 28.242187 28.261719 28.238281h455.476562c15.605469.003906 28.257813-12.644531 28.261719-28.25 0-.003906 0-.007812 0-.011719v-455.5c-.007812-15.597656-12.660156-28.24218725-28.261719-28.238281zm0 0" fill="#4267b2"/><path d="m353.5 512v-198h66.75l10-77.5h-76.75v-49.359375c0-22.386719 6.214844-37.640625 38.316406-37.640625h40.683594v-69.128906c-7.078125-.941406-31.363281-3.046875-59.621094-3.046875-59 0-99.378906 36-99.378906 102.140625v57.035156h-66.5v77.5h66.5v198zm0 0" fill="#fff"/></svg>
+                        </a>
+                        <a href="">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.0002 0H0.941406V25.0588H26.0002V0Z" fill="#50ABF1"/>
+                                <path d="M4.2613 18.5753C5.92902 19.633 7.90731 20.2451 10.028 20.2451C15.9856 20.2451 20.8151 15.4151 20.8151 9.45799C20.8151 9.30926 20.812 9.16162 20.8063 9.01442C21.0217 8.84484 22.3545 7.77663 22.6812 7.08991C22.6812 7.08991 21.5989 7.5397 20.5396 7.64565C20.5375 7.64565 20.535 7.64615 20.5329 7.64615C20.5329 7.64615 20.535 7.6451 20.5386 7.64252C20.6362 7.57731 22.0007 6.64843 22.1855 5.54167C22.1855 5.54167 21.42 5.95027 20.3481 6.30774C20.1707 6.36668 19.9849 6.42464 19.7934 6.47836C19.1025 5.74099 18.1205 5.28076 17.0304 5.28076C14.9394 5.28076 13.2451 6.97461 13.2451 9.06396C13.2451 9.3588 13.279 9.64577 13.3432 9.92131C13.051 9.90932 8.60134 9.65985 5.57425 5.99404C5.57425 5.99404 3.7651 8.46385 6.65237 11.0035C6.65237 11.0035 5.77468 10.9686 5.01747 10.5161C5.01747 10.5161 4.73935 13.5083 8.00909 14.2733C8.00909 14.2733 7.3657 14.517 6.33927 14.3432C6.33927 14.3432 6.91327 16.7608 9.81829 16.9868C9.81829 16.9868 7.52114 19.062 4.26025 18.5751L4.2613 18.5753Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer__privacy">2021 <a href="">Compani</a>, Corp. All Right Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
